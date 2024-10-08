@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./globals.css";
 import logo from "../public/logo.jpeg";
-import largeNextLogo from "../public/next-js-laptop.png";
+import laptopNext from "../public/next-js-laptop.png";
 import nextJs from "../public/next-js-logo-2.webp";
 
 export default function Home() {
@@ -29,15 +29,15 @@ export default function Home() {
           in the Web Development Program at Full Sail University!
         </p>
         <div className="next-js-laptop">
-          <Image src={nextJs} alt="next-js-laptop" width={550} height={550} />
+          <Image
+            src={laptopNext}
+            alt="next-js-laptop"
+            width={550}
+            height={550}
+          />
         </div>
         <div className="next-large-logo">
-          <Image
-            src={largeNextLogo}
-            alt="next-large-logo"
-            width={200}
-            height={200}
-          />
+          <Image src={nextJs} alt="next-large-logo" width={200} height={200} />
         </div>
         <p>
           Next.js offers robust static page features that enhance performance
